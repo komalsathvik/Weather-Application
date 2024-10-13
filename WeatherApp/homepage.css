@@ -1,0 +1,149 @@
+body {
+    background-image: url('./pngtree-sky-weather-clouds-cloudscape-background-picture-image_370448-transformed.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+}
+#container{
+    position: absolute;
+    top:70px;
+    left:300px;
+    width:700px;
+    height:500px;
+    background-color:#00000000;
+    border: 5px solid rgb(130, 152, 182);
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4);
+}
+#loc{
+    position:absolute;
+    top: 130px;
+    left: 218px;
+    font-size:20px;
+    border-radius:30px;
+    border-color: black ;
+    padding-left:6px;
+    text-decoration: none;
+}
+#p{
+    position:absolute;
+    top:70px;
+    left:220px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+#butn{
+    position:absolute;
+    top:128px;
+    left:490px;
+    border-radius: 50%;
+    font-size:20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;  
+    opacity:0.7;
+}
+#butn:hover{
+    opacity:1 ;
+}
+#butn:active{
+    transform: scale(0.95);
+}
+#temp{
+    position:absolute;  
+    top:220px;  
+    left:260px;
+    font-size:50px;
+    color:rgb(17, 17, 17);
+}
+#place {
+    text-align: center;
+    font-size: 50px; 
+    color: rgb(17, 17, 17); 
+    margin-top: 270px;
+    margin-bottom: 0; 
+}
+#weather{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#image{
+    height: 100px;
+    width:100px;
+    position:absolute;
+    top:170px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+#description{
+    text-align: center;
+    font-size:25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:absolute;
+    top:250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#humidity{
+    height:50px;
+    width:50px;
+    position:absolute;
+    top:430px;
+    left:150px;
+    opacity:0;
+}
+#speed{
+    height:50px;
+    width:50px;
+    position: absolute;
+    top:430px;
+    left:470px;
+    opacity: 0;
+}
+#humidValue{
+    position:absolute;
+    left:50px;
+    top:465px;
+    bottom:0px;
+    left:130px;
+    opacity:0
+}
+#speedValue{
+    position:absolute;
+    top:465px;
+    bottom:0px;
+    left:450px; 
+    opacity:0
+}
+#notFound{
+    position:absolute;
+    top:370px;
+    left:260px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:30px;
+}
+#notFoundImage{
+    position: absolute;
+    top:180px;
+    left:240px;
+    height:200px;
+    width:200px;
+    opacity: 0;
+}
+#cross{
+    position: absolute;
+    font-size:16px;
+    top:131px;
+    left:438px;
+    background-color: white;
+    border-radius: 100px;
+    opacity: 0.7;
+}
+#cross:hover{
+    cursor: pointer;
+    opacity: 1;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./images/cloudy (5).png">
+</head>
+<body>
+    <div id="container">
+    <h1><center>Weather Application</center></h1>
+    <form action="/" id="form">
+        <p id="p">Enter Your City Name &#128204;</p>
+        <label for="loc" ></label>
+        <br>
+        <input type="text" id="loc" placeholder="Enter City Name">
+        <button type="submit" id="butn">&#x1F50D;</button>
+        <button id="cross" type="button">&#10060;</button>
+        <p id="temp"></p>
+        <p id="notFound"></p>
+        <p id="place"></p>
+        <div id="description"></div>
+        <img src="" id="image" alt="image">
+        <img src="./images/humidity.png" id="humidity">
+        <img src="./images/winds-weather-symbol.png" id="speed">
+        <p id="humidValue"></p>
+        <p id="speedValue"></p>
+        <img src="./images/NotFound.jpg" id="notFoundImage">
+    </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
